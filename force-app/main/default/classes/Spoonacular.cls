@@ -11,6 +11,7 @@ request.setMethod('GET');
 HttpResponse response = http.send(request);
 
 System.debug(response.getStatusCode());
+System.debug('Hey Bro');
 // If the request is successful, parse the JSON response.
 if(response.getStatusCode() == 200) {
     
@@ -30,6 +31,7 @@ System.debug(response.getStatusCode());
 if(response.getStatusCode() == 200) {
     
         System.debug(response.getBody());
+        //System.debug('TEst Debug');
     }
                     }  
 
